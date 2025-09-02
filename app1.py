@@ -10,9 +10,7 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 
 # Get your Bearer Token from Twitter Developer Portal
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAFZc2wEAAAAAMO7nrZwnL970TEhmWKW7uU1F7Nw%3DezWyIrqvlXCqHgLVifdcSAEH4wZPrQTnkb9meAp0CTS9uSuayk"  # Replace with your actual token
-
-#AAAAAAAAAAAAAAAAAAAAAFZc2wEAAAAAMO7nrZwnL970TEhmWKW7uU1F7Nw%3DezWyIrqvlXCqHgLVifdcSAEH4wZPrQTnkb9meAp0CTS9uSuayk
+BEARER_TOKEN = ""     # Enter the token between the "" 
 # --- Load Stopwords ---
 @st.cache_resource
 def load_stopwords():
